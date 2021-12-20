@@ -4,6 +4,7 @@ node {
     }
     stage('Test') {
         echo 'Building....'
+        sh "uname -a"
     }
     stage('Deploy') {
         echo 'Deploying....'
